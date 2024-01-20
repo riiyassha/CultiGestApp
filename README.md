@@ -34,7 +34,7 @@ Este proyecto constituye el backend de una aplicación web dedicada a proporcion
 
 2. **Clona el Repositorio:**
    
-git clone https://github.com/JeysonhT/CultiGestApp/
+git clone https://github.com/DevopsEasy/CultiGestApp/
 
 
 3. **Configuración:**
@@ -50,4 +50,4 @@ git clone https://github.com/JeysonhT/CultiGestApp/
 ¡Apreciamos tu interés en contribuir a CultiGest!.
 
 ---
-© 2023 CultiGest. Hecho con ❤️ por [Jeysonh](https://github.com/JeysonhT/CultiGestApp).
+© 2023 CultiGest. Hecho con ❤️ por [Devops Easy](https://github.com/DevopsEasy/CultiGestApp).
