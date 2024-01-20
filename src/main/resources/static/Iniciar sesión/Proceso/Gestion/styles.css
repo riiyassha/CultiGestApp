@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./assets/445.jpg') no-repeat center; /* Color celeste */
+    background-size: cover; /* Añade esta propiedad para cubrir toda la pantalla */
+    color: rgb(0, 0, 0); /* Cambia el color del texto a negro */
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 100px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    background: #759f8eaa;
+}
+
+form {
+    margin-bottom: 20px;
+    color:#000000
+}
+
+label
+input {
+    margin-bottom: 10px;
+   
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    
+}
+
+
+
+.input-group {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

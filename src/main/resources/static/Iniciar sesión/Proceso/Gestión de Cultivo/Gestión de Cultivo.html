@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <title>Registro de Plantas</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Plantas</h1>
+        <div class="e80_159"></div><div class="e80_160"></div> <div class="e80_161"></div>
+       
+        <form id="plant-form">
+            <label for="nombre">Nombre de la Planta:</label>
+            <input type="text" id="nombre" required><br>
+
+            <label for="agua">Aria de cultivo:</label>
+            <input type="number" id="agua" required><br>
+
+            <label for="plaga">Plaga:</label>
+            <input type="text" id="plaga" required><br>
+
+            <label for="fertilidad">Nivel de Fertilidad:</label>
+            <input type="text" id="fertilidad" required><br>
+
+            <label for="desempenio">Desempeño de la Planta:</label>
+            <select id="desempenio" required>
+                <option value="bueno">Bueno</option>
+                <option value="regular">Regular</option>
+                <option value="malo">Malo</option>
+            </select><br>
+
+            <button type="button" onclick="agregarPlanta()">Agregar Planta</button>
+        </form>
+
+        <div id="plant-list"></div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

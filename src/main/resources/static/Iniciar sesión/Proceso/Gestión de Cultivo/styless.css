@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background: url('./assets/445.jpg') no-repeat center;
+    background-size: cover; /* Añade esta propiedad para cubrir toda la pantalla */
+    color: rgb(255, 255, 255); /* Cambia el color del texto a negro */
+  }
+  
+  h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container {
+    max-width: 990px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial ;
+    background-color: #759f8eaa;
+    box-shadow: 0 0 10px rgba(183, 138, 138, 0.1);
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #000000;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .e80_159 { 
+    width:100px;
+    height:100px;
+    margin-top: 20px;
+    left: 100px; /* Ajusta la posición horizontal de la imagen */
+    top: 50px;
+    background-image:url(assets/corn_4646357.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+
+  

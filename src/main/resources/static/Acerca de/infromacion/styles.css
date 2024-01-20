@@ -1,0 +1,82 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial , sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4e4f9; /* Color celeste */
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    
+    padding: 1rem
+}
+.logo {
+    font-size: 1.5em; /* Tamaño del texto del logo */
+    
+   
+  color: #ffffff;
+    user-select: none;
+  }
+  
+  /* El resto de tus estilos se mantienen igual */
+  
+  .logo img {
+    width: 50px; /* Tamaño de la imagen del logo */
+    margin-right: 10px; /* Espaciado entre el texto y la imagen */
+  }
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para los enlaces dentro de las secciones */
+section a {
+    color: #000000;
+}
+
+/* Estilos para los encabezados de sección */
+h2 {
+    color: #000000;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 0.1rem ;
+     position: sticky ;
+    font-family: Arial black, sans-serif;
+    bottom: 0;
+    width: 100%;
+
+   
+}

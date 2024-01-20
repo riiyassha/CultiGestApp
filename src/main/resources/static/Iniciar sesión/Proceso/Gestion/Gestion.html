@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gestión de Cultivos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gestión de Cultivos</h1>
+        <form id="cultivo-form">
+            <label for="nombre">Nombre del Cultivo:</label>
+            <input type="text" id="nombreCultivo" required><br>
+
+            <label for="siembra">Fecha de Siembra:</label>
+            <input type="date" id="siembra" required><br>
+
+            <label for="agua">Aria de cultibo:</label>
+            <input type="number" id="AreaCultivo" required><br>
+
+            <button type="submit">Guardar</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+      <div class="container">
+        <h1>Calculadora Agrícola</h1>
+        <div class="input-group">
+            <label for="tipo-cultivo">Tipo de Cultivo:</label>
+            <select id="tipo-cultivo">
+                <option value="arroz">Arroz</option>
+                <option value="maiz">Maíz</option>
+                <option value="sorgo">Sorgo</option>
+                <option value="frijoles">Frijoles</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="cantidad-comprar">Cantidad a comprar por manzana:</label>
+            <input type="number" id="cantidad-comprar">
+        </div>
+        <div class="input-group">
+            <label for="costo-unidad">Costo por unidad:</label>
+            <input type="number" id="costo-unidad">
+        </div>
+        <div class="input-group">
+            <label for="cantidad-cosecha">Cantidad de cosecha (en unidades):</label>
+            <input type="number" id="cantidad-cosecha">
+        </div>
+        <button id="calcular">Calcular</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
