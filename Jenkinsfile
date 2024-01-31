@@ -8,11 +8,11 @@ pipeline{
     }
     environment {
         APP_NAME = "cultigestapp"
-        RELEASE = "culti"
+        RELEASE = "1"
         DOCKER_USER = "devopseasy"
         DOCKER_PASS = 'dockerhub'
         IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
-        IMAGE_TAG = "${RELEASE}_${BUILD_NUMBER}"
+        IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
         JENKINS_API_TOKEN = credentials("JENKINS_API_TOKEN")
 
     }
