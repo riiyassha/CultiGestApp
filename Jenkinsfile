@@ -2,7 +2,7 @@ pipeline{
     agent any
     tools {
         jdk 'jdk17'
-        maven 'Maven3.9'
+        maven 'Maven3.8'
     }
     environment {
         APP_NAME = "cultigestapp"
