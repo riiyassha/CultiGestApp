@@ -4,7 +4,7 @@ pipeline{
     }
     tools {
         jdk 'Java17'
-        maven 'Maven3'
+        maven 'Maven3.9'
     }
     environment {
         APP_NAME = "cultigestapp"
